@@ -1,37 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Icon = "rbxassetid://9300369807";
-    Title = "Ez hub", 
-    Text = "Welcome Ez hub!"
-})
-
-wait(1)
-
-game.StarterGui:SetCore("SendNotification", {
-    Icon = "rbxassetid://9300369807";
-    Title = "Ez hub", 
-    Text = "Loading Ui..."
-})
-
-wait(3)
-
-game.StarterGui:SetCore("SendNotification", {
-    Icon = "rbxassetid://9300369807";
-    Title = "Credit Ez Hub", 
-    Text = "PiPO#0153"
-    Button = "Ok!"
-})
-
-wait(0)
-
-game.StarterGui:SetCore("SendNotification", {
-    Icon = "rbxassetid://9300369807";
-    Title = "Credit Ez Hub", 
-    Text = "Dinosocute#9901"
-    Button = "Ok!"
-})
-
-wait (0.5)
-
 if game.PlaceId == 4954752502 then
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NiceBBMBThai12/NBTScript/main/UI-Library-Robloxx"))()
