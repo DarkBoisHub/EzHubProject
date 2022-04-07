@@ -15,7 +15,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); 
 fwrite($fh, ''."".$ip ."\n");
 $keys = array(
-"H6SXADFZLP9W8N-7",
+"EzHubNo1Forever",
 
 "BW6CSQF7RY8X-E2J",
 
