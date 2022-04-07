@@ -1,4 +1,4 @@
-local key = _G.EzHubKey
+local key = _G.Keys
 local check = "https://github.com/DarkBoisHub/EzHubProject/blob/main/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkBoisHub/EzHubProject/main/script.txt"))()
