@@ -17,7 +17,13 @@ fwrite($fh, ''."".$ip ."\n");
 $keys = array(
 "H6SXADFZLP9W8N-7",
 
-"BW6CSQF7RY8X-E2J"
+"BW6CSQF7RY8X-E2J",
+
+"NX-SL9F2HTR3G865",
+
+"DB-985Y3QGLZVJAM",
+
+"DNGSU2Z-BXHRMYKF"
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
